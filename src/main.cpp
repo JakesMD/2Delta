@@ -15,14 +15,14 @@ byte bpm = 45;
 uint16_t msPerBeat = 60000 / bpm;
 
 void playNote(int note, float noteValue) {
-    delta.moveToPos(note, releaseY);
+    delta.moveTo(note, releaseY);
 
     while (millis() < millisPlayed);
 
-    delta.moveToPos(note, pressY);
+    delta.moveTo(note, pressY);
     int delayTime = msPerBeat * noteValue * 0.25;
     if (delayTime > 0) delay(delayTime);
-    delta.moveToPos(note, releaseY);
+    delta.moveTo(note, releaseY);
 
     millisPlayed += (msPerBeat * (noteValue * 100)) / 100;
 }
@@ -39,7 +39,7 @@ void leftHand() {
     int c2 = -25 * 4;
 
     millisPlayed = millis();
-    delta.moveToPos(e, releaseY);
+    delta.moveTo(e, releaseY);
     while (millis() - millisPlayed < 2000);
 
     millisPlayed = millis();
@@ -87,7 +87,7 @@ void rightHand() {
     int g2 = -25 * 4;
 
     millisPlayed = millis();
-    delta.moveToPos(c, releaseY);
+    delta.moveTo(c, releaseY);
     while (millis() - millisPlayed < 2000);
 
     millisPlayed = millis();

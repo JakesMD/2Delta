@@ -26,7 +26,7 @@ class Delta {
 
     void setSpeed(int speed) { _speed = speed; }
 
-    bool moveToPos(float x, float y) {
+    bool moveTo(float x, float y) {
         float leftShoulderAngle, rightShoulderAngle;
         float startX = _currentXPos;
         float startY = _currentYPos;
