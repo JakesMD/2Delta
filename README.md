@@ -49,3 +49,5 @@ void loop() {
 **Turn off the power to the servos before uploading!**
 
 Uploading can interfere with the PWM signals and cause the servos to go crazy until the robot is destroyed.
+
+In future versions, I'll add an upload button, which will detach the servos before uploading.
