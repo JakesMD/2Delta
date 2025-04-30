@@ -51,3 +51,20 @@ void loop() {
 Uploading can interfere with the PWM signals and cause the servos to go crazy until the robot is destroyed.
 
 In future versions, I'll add an upload button, which will detach the servos before uploading.
+
+
+## Assembly
+
+### Hardware
+- [x] 1x Arduino
+- [x] 1x 5V 3A power supply
+- [x] 2x Standard servos with metal servo horns ([Amazon](https://www.amazon.de/dp/B0BBZFDJJ6))
+- [x] 9x 624Z bearings
+- [x] 15x M4 locknuts
+- [x] 4x 16mm M4 screws
+- [x] 8x 20mm M4 screws
+- [x] 1x 25mm M4 screw
+- [x] 1x 30mm M4 screw
+- [x] 1x 35mm M4 screw
+- [x] 4x 10mm M3 screw
+
