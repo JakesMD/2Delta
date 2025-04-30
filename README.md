@@ -66,5 +66,5 @@ In future versions, I'll add an upload button, which will detach the servos befo
 - [x] 1x 25mm M4 screw
 - [x] 1x 30mm M4 screw
 - [x] 1x 35mm M4 screw
-- [x] 4x 10mm M3 screw
+- [x] 4x 10mm M3 screws
 
