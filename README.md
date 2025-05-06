@@ -71,5 +71,5 @@ In future versions, I'll add an upload button, which will detach the servos befo
 
 ## Future improvements
 
-Currently, the inverse kinematics uses `acos`, which can be inaccurate for `theta ~ 1` and `theta ~ -1`. It would be better to use `atan2` instead.
+Currently, the inverse kinematics uses `acos`, which can be inaccurate for `acos(1-)` and `acos(-1+)`. It would be better to use `atan2` instead.
 
