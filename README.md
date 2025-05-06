@@ -68,3 +68,8 @@ In future versions, I'll add an upload button, which will detach the servos befo
 - [x] 1x 35mm M4 screw
 - [x] 4x 10mm M3 screws
 
+
+## Future improvements
+
+Currently, the inverse kinematics uses `acos`, which can be inaccurate for `theta ~ 1` and `theta ~ -1`. It would be better to use `atan2` instead.
+
